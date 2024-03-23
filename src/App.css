@@ -9,6 +9,9 @@ body {
 * {
   transition: 0.3s;
 }
+.btn {
+  @apply bg-gradient-to-r from-PrimaryLimeGreen to-PrimaryBrightCyan text-white rounded-full text-[0.85rem] font-bold;
+}
 /* custom */
 @layer base {
   :root {
