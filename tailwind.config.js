@@ -16,6 +16,10 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      lg: "1024px",
+      md: "768px"
+    },
     extend: {
       colors: {
         PrimaryDarkBlue: 'hsl(233, 26%, 24%)',

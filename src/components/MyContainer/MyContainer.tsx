@@ -5,6 +5,7 @@ export default function MyContainer() {
   return (
     <>
       <Navbar />
+      <div className="h-[200vh]"></div>
     </>
   );
 }
