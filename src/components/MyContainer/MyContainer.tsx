@@ -1,14 +1,15 @@
 import "./mycontainer.css";
 // components
-import { Navbar, S1, Articles } from "@/components";
+import { Navbar, S1, Articles, Footer } from "@/components";
 export default function MyContainer() {
   return (
     <>
       <Navbar />
-      <main className="h-[200vh]">
+      <main className="">
         <S1 />
         <Articles />
       </main>
+      <Footer />
     </>
   );
 }
