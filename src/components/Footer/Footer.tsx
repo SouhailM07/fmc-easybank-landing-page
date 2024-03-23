@@ -37,7 +37,7 @@ const S1 = () => {
           return (
             <ReactSVG
               key={i}
-              className="hover:fill-green-400 fill-white cursor-pointer"
+              className="hover:fill-PrimaryLimeGreen fill-white cursor-pointer"
               src={e}
               role="listitem"
             />
@@ -58,7 +58,11 @@ const S2 = () => {
           <ul role="list" key={i} className="space-y-[0.7rem] font-[500]">
             {e.map((e1, i1) => {
               return (
-                <li role="listitem" key={i1}>
+                <li
+                  className="cursor-pointer hover:text-PrimaryLimeGreen"
+                  role="listitem"
+                  key={i1}
+                >
                   {e1}
                 </li>
               );
@@ -73,9 +77,9 @@ const S2 = () => {
 const S3 = () => {
   return (
     <section className="text-NeutralGrayishBlue max-lg:items-center space-y-[1.5rem] flex flex-col">
-      <button className="btn px-[1.5rem] py-[0.7rem] lg:self-end">
-        Request Invite
-      </button>
+      <div className="rounded-full bg-white lg:self-end">
+        <button className="btn px-[1.5rem] py-[0.7rem] ">Request Invite</button>
+      </div>
       <p className="text-[0.9rem]"> © Easybank. All Rights Reserved</p>
     </section>
   );

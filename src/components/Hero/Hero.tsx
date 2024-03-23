@@ -23,8 +23,8 @@ export default function Hero() {
           <img
             src={bgImg}
             alt="img"
+            draggable={false}
             className="lg:h-[39rem] max-w-[30rem] max-sm:w-[18rem] "
-            // max-sm:max-h-[23rem] h-[28rem]
             loading="eager"
             fetchPriority="high"
           />

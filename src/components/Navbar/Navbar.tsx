@@ -13,17 +13,17 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
   return (
     <>
-      <header className="py-[0.8rem] px-[1rem] md:px-[3rem] sticky top-0 z-[10] bg-white">
+      <header className="px-[1rem] md:px-[3rem] max-lg:py-[0.8rem] sticky top-0 z-[10] bg-white">
         <nav className="flex w-full justify-between items-center layoutSize ">
           <img src={logo} alt="logo" />
           <ul
             role="list"
-            className="flex space-x-[2rem] text-NeutralGrayishBlue max-lg:hidden"
+            className="flex space-x-[2rem] text-NeutralGrayishBlue max-lg:hidden h-[4rem]"
           >
             {navLinks.map((e, i) => {
               return (
                 <li
-                  className="hover:font-bold cursor-pointer"
+                  className="hover:text-black cursor-pointer gradient-border h-full grid items-center hover:border-t-transparent hover:pt-[0.3rem] hover:border-b-[0.3rem]"
                   role="listitem"
                   key={i}
                 >

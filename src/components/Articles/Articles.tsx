@@ -60,8 +60,8 @@ const Article = ({ img, title, txt, by }: articles_t) => {
     >
       <img src={img} alt="img" className="h-[10rem] w-full  rounded-t-md" />
       <div className="px-[1rem] space-y-[0.8rem] pt-[1rem]">
-        <h1 className="text-NeutralGrayishBlue text-[0.8rem]">{by}</h1>
-        <h2>{title}</h2>
+        <h1 className="text-NeutralGrayishBlue text-[0.8rem] ">{by}</h1>
+        <h2 className="hover:text-PrimaryLimeGreen cursor-pointer">{title}</h2>
         <p className="text-NeutralGrayishBlue text-[0.8rem]">{txt}</p>
       </div>
     </li>
