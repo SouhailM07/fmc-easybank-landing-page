@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 /* custom */
+body {
+  @apply overflow-x-clip;
+}
 .fnt {
   @apply font-[PublicSans];
 }

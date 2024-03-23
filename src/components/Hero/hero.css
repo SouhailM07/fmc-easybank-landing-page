@@ -3,3 +3,7 @@
 @tailwind utilities;
 @layer components {
 }
+
+#Hero {
+  @apply mb-[3rem] grid  grid-cols-[35%_1fr] items-center h-[25rem] bg-white relative top-[-5rem] translate-x-[7rem];
+}
