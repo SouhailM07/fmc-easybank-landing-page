@@ -54,7 +54,10 @@ export default function Articles() {
 
 const Article = ({ img, title, txt, by }: articles_t) => {
   return (
-    <li role="listitem" className="w-[14rem] pb-[1rem] shadow-xl rounded-md">
+    <li
+      role="listitem"
+      className="min-w-[14rem] pb-[1rem] shadow-xl rounded-md"
+    >
       <img src={img} alt="img" className="h-[10rem] w-full  rounded-t-md" />
       <div className="px-[1rem] space-y-[0.8rem] pt-[1rem]">
         <h1 className="text-NeutralGrayishBlue text-[0.8rem]">{by}</h1>

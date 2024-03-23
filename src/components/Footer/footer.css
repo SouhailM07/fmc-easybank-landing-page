@@ -5,7 +5,7 @@
 }
 
 footer article {
-  @apply flex justify-between max-lg:flex-col max-lg:space-y-[2rem] max-w-[80rem] mx-auto xl:px-[4rem] px-[2rem] items-center;
+  @apply flex justify-between max-lg:flex-col max-lg:space-y-[2rem] max-w-[80rem] mx-auto xl:px-[4rem] md:px-[2rem] items-center;
 }
 #Footer__s2 {
   @apply lg:grid-cols-3 max-lg:text-center grid lg:w-[28rem] text-NeutralLightGrayishBlue text-[0.8rem];

@@ -5,5 +5,11 @@
 }
 
 #Hero {
-  @apply mb-[3rem] grid  grid-cols-[35%_1fr] items-center h-[25rem] bg-white relative top-[-5rem] translate-x-[7rem];
+  @apply max-lg:place-items-center max-lg:text-center mb-[3rem] grid grid-cols-1 lg:grid-cols-[35%_1fr] items-center lg:h-[25rem] bg-white relative top-[-5rem] lg:translate-x-[7rem];
+}
+
+#Hero__s2 {
+  @apply relative flex justify-center w-full bg-cover bg-no-repeat  lg:translate-x-[4rem];
+  @apply lg:bg-[url('/bg-intro-desktop.svg')] bg-[center] lg:bg-[center_-4rem] bg-[url('/bg-intro-mobile.svg')];
+  @apply max-lg:row-[1/1];
 }

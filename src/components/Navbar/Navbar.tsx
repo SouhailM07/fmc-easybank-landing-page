@@ -13,8 +13,8 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
   return (
     <>
-      <header className="py-[0.8rem] px-[3rem] max-w-[80rem] mx-auto sticky top-0 z-[10] bg-white">
-        <nav className="flex w-full justify-between items-center">
+      <header className="py-[0.8rem] px-[1rem] md:px-[3rem] sticky top-0 z-[10] bg-white">
+        <nav className="flex w-full justify-between items-center layoutSize ">
           <img src={logo} alt="logo" />
           <ul
             role="list"
@@ -22,8 +22,12 @@ export default function Navbar() {
           >
             {navLinks.map((e, i) => {
               return (
-                <li role="listitem" key={i}>
-                  <a href={`#${e}`}>{e}</a>
+                <li
+                  className="hover:font-bold cursor-pointer"
+                  role="listitem"
+                  key={i}
+                >
+                  {e}
                 </li>
               );
             })}
@@ -48,7 +52,7 @@ export default function Navbar() {
 
 const NavbarMobile = ({ tog }) => {
   return (
-    <div className="bg-[#00000096] fixed w-full h-full top-0  pt-[4rem]">
+    <div className="bg-[#00000096] left-0 w-full h-full top-0 fixed z-[9] pt-[4rem]">
       <ul
         role="list"
         className="flex space-y-[1rem] w-[90%] mx-auto items-center py-[1.5rem] bg-white rounded-md  flex-col"
