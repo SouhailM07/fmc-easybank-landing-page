@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <>
       <footer className="mt-[5rem] bg-PrimaryDarkBlue py-[3rem]">
-        <article className="flex justify-between max-w-[80rem] mx-auto px-[2rem] items-center">
+        <article className="">
           <S1 />
           <S2 />
           <S3 />
@@ -30,7 +30,7 @@ const S1 = () => {
     instagram_logo,
   ];
   return (
-    <section className="space-y-[3rem] w-[13rem]">
+    <section className="lg:space-y-[3rem] space-y-[2rem] w-[13rem] flex flex-col max-lg:items-center ">
       <Logo />
       <ul className="flex space-x-[0.8rem] items-center " role="list ">
         {logos.map((e, i) => {
@@ -52,7 +52,7 @@ const S2 = () => {
   const arr1: string[] = ["About Us", "Contact", "Blog"];
   const arr2: string[] = ["Careers", "Support", "Privacy Policy"];
   return (
-    <section className="grid-cols-3 grid w-[28rem] text-NeutralLightGrayishBlue text-[0.8rem]">
+    <section id="Footer__s2" className="">
       {[arr1, arr2].map((e, i) => {
         return (
           <ul role="list" key={i} className="space-y-[0.7rem] font-[500]">
@@ -72,8 +72,8 @@ const S2 = () => {
 
 const S3 = () => {
   return (
-    <section className="text-NeutralGrayishBlue space-y-[1.5rem] flex flex-col">
-      <button className="btn px-[1.5rem] py-[0.7rem] self-end">
+    <section className="text-NeutralGrayishBlue max-lg:items-center space-y-[1.5rem] flex flex-col">
+      <button className="btn px-[1.5rem] py-[0.7rem] lg:self-end">
         Request Invite
       </button>
       <p className="text-[0.9rem]"> © Easybank. All Rights Reserved</p>

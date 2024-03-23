@@ -3,3 +3,13 @@
 @tailwind utilities;
 @layer components {
 }
+
+footer article {
+  @apply flex justify-between max-lg:flex-col max-lg:space-y-[2rem] max-w-[80rem] mx-auto px-[2rem] items-center;
+}
+#Footer__s2 {
+  @apply lg:grid-cols-3 max-lg:text-center grid lg:w-[28rem] text-NeutralLightGrayishBlue text-[0.8rem];
+}
+#Footer__s2 {
+  @apply max-lg:space-y-[0.7rem];
+}
