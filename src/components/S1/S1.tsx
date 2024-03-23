@@ -33,7 +33,7 @@ export default function S1() {
   return (
     <>
       <article className="bg-NeutralLightGrayishBlue layoutSize max-lg:text-center py-[3rem] px-[4rem]">
-        <h1 className="text-[1.8rem]">Why choose Easybank?</h1>
+        <h1 className="largeTitle">Why choose Easybank?</h1>
         <p className="text-NeutralGrayishBlue text-[0.8rem] max-lg:mx-auto max-w-[35rem] mt-[1rem]">
           We leverage Open Banking to turn your bank account into your financial
           hub. Control your finances like never before.

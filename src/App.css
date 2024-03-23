@@ -9,6 +9,9 @@
 .layoutSize {
   @apply max-w-[85rem] mx-auto;
 }
+.largeTitle {
+  @apply text-[1.8rem];
+}
 * {
   transition: 0.3s;
 }

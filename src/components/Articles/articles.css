@@ -3,3 +3,8 @@
 @tailwind utilities;
 @layer components {
 }
+
+#Articles ul {
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  @apply max-md:grid-cols-1 max-md:place-items-center;
+}
