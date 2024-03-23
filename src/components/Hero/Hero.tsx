@@ -4,7 +4,7 @@ import bgImg from "/image-mockups.png";
 export default function Hero() {
   return (
     <>
-      <article id="Hero" className=" layoutSize">
+      <article id="Hero" className=" layoutSize ">
         <section className="space-y-[1.5rem] max-w-[20rem]">
           <h1 className=" text-[2rem] md:text-[2.5rem]">
             Next generation digital banking
@@ -19,7 +19,7 @@ export default function Hero() {
           </button>
         </section>
         {/*  */}
-        <section id="Hero__s2" className="">
+        <section id="Hero__s2" className=" max-lg:min-h-[23rem]">
           <img
             src={bgImg}
             alt="img"
