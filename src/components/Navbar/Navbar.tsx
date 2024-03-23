@@ -1,4 +1,11 @@
 import "./navbar.css";
+// assets
 export default function Navbar() {
-  return <>Navbar</>;
+  return (
+    <>
+      <header>
+        <nav>sb</nav>
+      </header>
+    </>
+  );
 }
