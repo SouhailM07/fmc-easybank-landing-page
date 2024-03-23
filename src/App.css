@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 /* custom */
-body {
+.fnt {
   @apply font-[PublicSans];
+}
+.layoutSize {
+  @apply max-w-[85rem] mx-auto;
 }
 * {
   transition: 0.3s;

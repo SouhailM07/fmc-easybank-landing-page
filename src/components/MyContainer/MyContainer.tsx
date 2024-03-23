@@ -1,11 +1,13 @@
 import "./mycontainer.css";
 // components
-import { Navbar } from "@/components";
+import { Navbar, S1 } from "@/components";
 export default function MyContainer() {
   return (
     <>
       <Navbar />
-      <div className="h-[200vh]"></div>
+      <main className="h-[200vh]">
+        <S1 />
+      </main>
     </>
   );
 }
